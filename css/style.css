@@ -26,76 +26,58 @@
   src: local("IBM Plex Sans Bold"), url("../fonts/web/eot/IBMPlexSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/desktop/mac/IBMPlexSans-Bold.otf") format("opentype"), url("../fonts/desktop/pc/IBMPlexSans-Bold.ttf") format("truetype");
 }
 
-#container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: auto;
-  width: 960px;
-}
-
 body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-a {
-  text-decoration: none;
+header img {
+    float: left;
+    padding-top: 40px;
+    margin-left: 250px;
 }
 
-strong,
-b {
-  font-weight: 700;
-}
-
-header {
-  display: -ms-flexbox;
-  display: flex;
+header h1 {
   padding-top: 40px;
-  padding-bottom: 40px;
   font-size: 36px;
-  font-weight: 400;
-}
-
-header .fa-map {
-  width: 60px;
+  margin-left: 350px;
+  width: 860px;
+  top: 20px;
   text-align: center;
 }
+
+header h2 {
+  padding-top: 16px;
+  padding-bottom: 24px;
+  font-size: 24px;
+  margin-left: 330px;
+  width: 860px;
+  top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
 
 header a {
   display: block;
   color: black;
 }
 
-header h1 {
-  margin-left: 20px;
-  width: 860px;
-  text-align: center;
+
+
+.menu {
+position: fixed;
+padding-top: 40px;
+margin-left: 250px;
+width: 80px;
 }
 
-.map-page header {
-  padding: 0;
-  height: 112px;
-}
-
-.map-page header a {
-  padding-top: 38px;
-}
-
-.map-page header h1 {
-  margin: 8px 0;
-  padding: 20px 0 16px;
-  font-size: 24px;
-}
-
-.map-page header h1 b {
-  display: block;
-  margin: 8px 0;
-}
-
-nav {
+.map-page-nav {
+  position: fixed;
+  margin-left: 250px;
   width: 80px;
 }
+
+
 
 nav li {
   position: relative;
@@ -264,35 +246,132 @@ nav li:nth-child(7) a:hover::before {
   border-left-color: #f79cd0;
 }
 
-main {
+main .hp-box {
   background-color: #e3e3e3;
-  padding-top: 46.4px;
   width: 860px;
+  margin-left: 330px;
+  margin-top: 40px;
 }
 
-main p {
-  padding-left: 80px;
+
+div p {
   width: 720px;
   line-height: 26px;
   font-weight: 300;
+  padding: 48px 64px 50px 80px
 }
 
-main ul {
-  background-color: #f0f0f0;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  padding-left: 80px;
-  counter-reset: listStyle;
+main .forty {
+  background-color: #F5A3B0;
+  width: 860px;
+  margin-left: 330px;
 }
 
-main li {
-  counter-increment: listStyle;
+main .forty-legend  {
+  background-color: #F0F0F0;
+  width: 860px;
+  height: 434px;
+  margin-left: 330px;
+  padding-top: 70px;
+  margin-bottom: 80px;
 }
 
-main li::before {
-  font-weight: 700;
-  content: counter(listStyle, upper-alpha);
+
+main .fiftysix {
+  background-color: #9cc5d7;
+  width: 860px;
+  margin-left: 330px;
+
 }
+
+main .fiftysix-legend {
+  background-color: #F0F0F0;
+  width: 860px;
+  height: 417px;
+  margin-left: 330px;
+  padding-top: 70px;
+  margin-bottom: 80px;
+}
+
+main .fiftynine {
+  background-color: #F7F3AC;
+  width: 860px;
+  margin-left: 330px;
+}
+
+main .fiftynine-legend {
+  background-color: #F0F0F0;
+  width: 860px;
+  height: 452px;
+  margin-left: 330px;
+  padding-top: 70px;
+  margin-bottom: 80px;
+}
+
+main .sixty {
+  background-color: #C6A2F5;
+  width: 860px;
+  margin-left: 330px;
+}
+
+main .sixty-legend {
+  background-color: #F0F0F0;
+  width: 860px;
+  height: 410px;
+  margin-left: 330px;
+  padding-top: 70px;
+  margin-bottom: 80px;
+}
+
+main .sixtytwo {
+  background-color: #9CD7AB;
+  width: 860px;
+  margin-left: 330px;
+}
+
+main .sixtytwo-legend {
+  background-color: #F0F0F0;
+  width: 860px;
+  height: 410px;
+  margin-left: 330px;
+  padding-top: 70px;
+  margin-bottom: 80px;
+}
+
+main .seventy {
+  background-color: #F7D5A7;
+  width: 860px;
+  margin-left: 330px;
+}
+
+main .seventy-legend {
+  background-color: #F0F0F0;
+  width: 860px;
+  height: 1056px;
+  margin-left: 330px;
+  padding-top: 70px;
+  margin-bottom: 80px;
+}
+
+main .eighty {
+  background-color: #f79cd0;
+  width: 860px;
+  margin-left: 330px;
+}
+
+main .eighty-legend {
+  background-color: #F0F0F0;
+  width: 860px;
+  height: 1663px;
+  margin-left: 330px;
+  padding-top: 70px;
+  margin-bottom: 80px;
+}
+
+
+
+
+
 
 picture {
   display: block;
@@ -305,7 +384,7 @@ picture img {
 }
 
 picture.nineteen-forty {
-  background-color: #f5a3b0;
+  background-color: #F5A3B0;
 }
 
 picture.nineteen-fifty-six {
@@ -333,9 +412,237 @@ picture.nineteen-eighty {
 }
 
 .bullet {
-  color: #b4b4b4;
+  color: #000000;
+  font-weight: 200;
 }
 
-.map-page main {
-  padding-top: 0;
+.numbers {
+  font-weight: 600;
 }
+
+ul .forty-legend .first .second {
+  list-style: none;
+}
+
+
+.forty-legend .first li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 5px;
+  }
+
+.forty-legend .second li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+
+
+.forty-legend .first .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+}
+
+.forty-legend .second .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+}
+
+
+ul .fifty-legend .first .second {
+  list-style: none;
+}
+
+
+.fiftysix-legend .first li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 5px;
+  }
+
+.fiftysix-legend .second li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+
+
+.fiftysix-legend .first .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+.fiftysix-legend .second .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+
+ul .fiftynine-legend .first .second {
+  list-style: none;
+}
+
+
+.fiftynine-legend .first li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 5px;
+  }
+
+.fiftynine-legend .second li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+
+
+.fiftynine-legend .first .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+.fiftynine-legend .second .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+ul .eighty-legend .first .second {
+  list-style: none;
+}
+
+
+.eighty-legend .first li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 5px;
+  }
+
+.eighty-legend .second li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+
+
+.eighty-legend .first .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+.eighty-legend .second .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+ul .seventy-legend .first .second {
+  list-style: none;
+}
+
+
+.seventy-legend .first li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 5px;
+  }
+
+.seventy-legend .second li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+
+
+.seventy-legend .first .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+.seventy-legend .second .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+ul .sixty-legend .first .second {
+  list-style: none;
+}
+
+
+.sixty-legend .first li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 5px;
+  }
+
+.sixty-legend .second li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+
+
+.sixty-legend .first .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+.sixty-legend .second .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+ul .sixtytwo-legend .first .second {
+  list-style: none;
+}
+
+
+.sixtytwo-legend .first li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 5px;
+  }
+
+.sixtytwo-legend .second li {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+
+
+.sixtytwo-legend .first .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+.sixtytwo-legend .second .sfh li {
+    text-indent: 12px;
+    font-weight: 100;
+
+}
+
+.fa-map:before {
+    position: fixed;
+    font-size: 36pt;
+    content: "\f279";
+    margin-left: 250px;
+    float: left;
+    margin-top: 40px;
+
+  }
+
+  .sup {
+     line-height: 20px;
+     position: relative;
+     top: -0.30em;
+     vertical-align: baseline;
+  }
